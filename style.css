@@ -18,7 +18,7 @@ body{
 }
 
 .square{
-    height: 480px;
+    height: 500px;
     width: 480px;
     background-color: #B1A774 ;
     position: relative;
@@ -87,20 +87,24 @@ body{
     transform: skew(20deg);
 } */
 
-
+.ear2{
+    border: 1px solid red;
+    height: 100px;
+    width: 100px;
+    position: relative;
+}
 .inside{
     position: absolute;
-    top: 20%;
-    left: -90%;
+    top: 0;
+    left: 0;
     left: auto;
-    rotate: 80deg;
     border: 8px solid #40251a;
     background-color: #000;
-    height: 240px;
-    width: 280px;
+    height: 100px;
+    width: 50px;
     border-radius: 50%;
     z-index: 0;
-    transform: skewY(45deg);
+    transform: skew(20deg);
 }
 
 /* .body{
@@ -160,7 +164,7 @@ body{
     position: absolute;
     top: -7px;
     left: -25%;
-    border: 7px solid #3B2822;
+    border-top: 7px solid transparent;
 }
 
 .piso{
