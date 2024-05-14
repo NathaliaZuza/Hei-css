@@ -49,7 +49,6 @@ body{
     border: 6.5px solid #40251a;
     background-color: #FFFFCD;
     rotate: 5deg;
-    transform: perspective(900px) rotateX(20deg);
 }
 
 .eye2{
