@@ -198,13 +198,13 @@ body{
     overflow: hidden;
 }
 
-.piso{
+/* .piso{
     border: 3px solid #4f352e;
     z-index: 12;
     height: 550px;
     width: 100%;
     rotate: 200deg;
-}
+} */
 
 .tailInside{
     border: 8px solid #40251a;
